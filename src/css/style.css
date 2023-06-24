@@ -51,7 +51,23 @@ body {
 
 .mid-sec .pages-wrap {
     display: flex;
+    flex-wrap: wrap;
 }
+
+.mid-sec .pages-wrap .pages {
+    width: 300px;
+    height: 300px;
+    gap: 50px;
+    background: url(../images/scroll-bg.png) center center no-repeat;
+    background-size: cover;
+}
+
+.mid-sec .pages-wrap .pages a {
+    
+}
+
+
+
 
 .mid-sec h2 {
     font-size: 1.6rem;
