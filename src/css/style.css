@@ -13,6 +13,8 @@ body {
 }
 
 
+/* HEADER */
+
 .header {
     display: flex;
     padding: 20px;
@@ -40,8 +42,16 @@ body {
 }
 
 
+/* MID-SEC */
 
+.mid-sec {
+   display: flex;
+   flex-direction: column;
+}
 
+.mid-sec .pages-wrap {
+    display: flex;
+}
 
 .mid-sec h2 {
     font-size: 1.6rem;
@@ -50,4 +60,6 @@ body {
     border: 5px double #FFF;
     padding: 10px;
     border-radius: 20px;
+    margin-bottom: 20px;
+    align-self: center;
 }
