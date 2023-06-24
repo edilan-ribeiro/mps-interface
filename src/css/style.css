@@ -17,5 +17,30 @@ body {
     display: flex;
     padding: 20px;
     align-items: center;
+    padding: 10px;
+    margin: 25px;
 }
 
+
+.header img {
+    width: 112px;
+    height: 156px;
+}
+
+.header .head-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.header .head-text h1 {
+    font-size: 2.5rem;
+}
+
+.header .head-text h2 {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+}
