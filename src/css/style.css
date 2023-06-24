@@ -1,6 +1,21 @@
-body {
-    font-family: 'Press Start 2P', cursive;
-    background-color: black;
-    color: #FFF;
-   
+html {
+    font-size: 62.5%;
 }
+
+body {
+  font-family: "Press Start 2P", cursive;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
