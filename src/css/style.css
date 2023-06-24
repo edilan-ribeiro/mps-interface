@@ -21,6 +21,7 @@ body {
   padding: 10px;
   margin: 25px 25px 0;
   height: 150px;
+  text-align: center;
 }
 
 .header img {
@@ -93,14 +94,15 @@ body {
   font-size: 1.5rem;
 }
 
-.footer a {
-   background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+
+.footer p a {
+  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.footer a:hover {
+.footer p a:hover {
   background: -webkit-radial-gradient(rgb(226, 90, 90), rgb(194, 52, 194));
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
