@@ -83,6 +83,15 @@ body {
   text-align: center;
   font-size: 1.8rem;
   line-height: 2.5rem;
+  color: #000;
 }
 
 /* FOOTER  */
+
+.footer {
+  padding: 20px;
+}
+
+.footer a {
+  
+}
