@@ -4,15 +4,22 @@ html {
 
 body {
   font-family: "Press Start 2P", cursive;
-  
+  background-color: black;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url('../images/texture-bg.png') no-repeat;
-  background-size: cover;
-  background-color: black;
+}
+
+.page-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 25px solid transparent;
+  border-image: url('../images/texture-border.jpg') 50;
+
 }
 
 /* HEADER */
@@ -22,14 +29,14 @@ body {
   padding: 20px;
   align-items: center;
   padding: 10px;
-  margin: 25px 25px 0;
+  margin: 0 25px 0;
   height: 150px;
   text-align: center;
 }
 
 .header img {
-  width: 112px;
-  height: 156px;
+  width: 105px;
+  height: 126px;
 }
 
 .header .head-text {
@@ -41,7 +48,7 @@ body {
 }
 
 .header .head-text h1 {
-  font-size: 2.5rem;
+  font-size: 2.1rem;
 }
 
 /* MID-SEC */
@@ -52,11 +59,11 @@ body {
 }
 
 .mid-sec h2 {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   text-align: center;
   line-height: 3rem;
   border: 5px double #fff;
-  padding: 10px;
+  padding: 5px 30px;
   border-radius: 20px;
   margin-bottom: 20px;
   align-self: center;
@@ -71,7 +78,7 @@ body {
 
 .mid-sec .pages-wrap .pages {
   width: 283px;
-  height: 230px;
+  height: 225px;
   gap: 50px;
   background: url(../images/scroll-bg.png) center center no-repeat;
   background-size: cover;
