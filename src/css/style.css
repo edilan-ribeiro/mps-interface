@@ -4,12 +4,15 @@ html {
 
 body {
   font-family: "Press Start 2P", cursive;
-  background-color: black;
+  
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background: url('../images/texture-bg.png') no-repeat;
+  background-size: cover;
+  background-color: black;
 }
 
 /* HEADER */
