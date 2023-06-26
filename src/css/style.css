@@ -107,6 +107,7 @@ body {
   text-align: center;
 }
 
+
 /* MENU BASICO */
 
 #html-css-basico {
@@ -173,17 +174,17 @@ body {
   display: none;
 }
 
-.pages.advanced input[type="checkbox"]:checked ~ label {
+.pages.advanced input[type="checkbox"]:checked + label {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.pages.advanced input[type="checkbox"]:checked ~ label span {
+.pages.advanced input[type="checkbox"]:checked + label span {
   display: none;
 }
 
-.pages.advanced input[type="checkbox"]:checked ~ label::after {
+.pages.advanced input[type="checkbox"]:checked + label::after {
   content: "X";
   position: absolute;
   top: 0;
