@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap");
+
+html {
+  font-family: "Public Sans", sans-serif;
+  font-size: 62.5%;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.imgframe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 33.5rem;
+  height: 43.2rem;
+  color: #ffff;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.imgframe h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.imgframe p {
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+
+.imgframe.frame1 {
+  background-image: url(../images/rome.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgframe.frame2 {
+  background-image: url(../images/boat.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgframe.frame3 {
+  background-image: url(../images/sand-and-sea.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgframe.frame4 {
+  background-image: url(../images/starry-night.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

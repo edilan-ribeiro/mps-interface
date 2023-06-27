@@ -1,0 +1,84 @@
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: hsl(185, 75%, 39%);
+    margin: 20px;
+    padding: 5px;
+    font-size: 18px;
+    height: 100vh;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h2 span {
+    color: hsl(227, 10%, 46%);
+}
+
+p {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.card-format {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+}
+
+.cardtop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.stats-container{
+    border-top: 1px rgb(211, 204, 204) solid;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.stats-container .stats {
+    text-align: center;
+    margin: 1em;
+}
+
+
+
+
+/* Possible second way to bottom piece
+ .card-format .profile-numbers{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.profile-numbers .info .counter, 
+.card .profile-informations p{
+    font-weight: 700;
+} */

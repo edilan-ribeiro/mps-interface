@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Possible second way to bottom piece
+ul{
+    list-style: none;
+}
+ */

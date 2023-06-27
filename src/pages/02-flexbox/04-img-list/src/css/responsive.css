@@ -1,0 +1,13 @@
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .imgframe {
+    width: 33.5rem;
+    height: 43.2rem;
+    color: #ffff;
+    margin: 0.1rem;
+  }
+}

@@ -1,0 +1,29 @@
+@media (max-width: 801px) {
+  .container-topmenu {
+    flex-direction: column;
+  }
+
+  .toplogo h2 {
+    font-size: 40px;
+  }
+
+  .top-nav {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .top-nav .menu-link {
+    margin: 0;
+  }
+
+  .top-nav li {
+    padding: 17px 40px;
+    font-size: 47px;
+  }
+
+  .action-button {
+    font-size: 18px;
+    padding: 15px 23px;
+    margin: 20px;
+  }
+}

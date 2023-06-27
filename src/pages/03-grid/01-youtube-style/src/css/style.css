@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  background-color: #f7f7f7;
+  max-width: 900px;
+  gap: 20px;
+  padding: 38px;
+
+  grid-template-areas:
+    "videodestaque propaganda"
+    "videodestaque videosugeridos";
+
+  grid-template-columns: 1fr 270px;
+  grid-template-rows: 55px 1fr;
+}
+
+/* grid areas */
+.videodestaque {
+  grid-area: videodestaque;
+}
+
+.propaganda {
+  grid-area: propaganda;
+}
+
+.videosugeridos {
+  grid-area: videosugeridos;
+}
+
+/* right side */
+.videodestaque iframe {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.titulo {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.visualizacoes {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+/* left side */
+.videosugeridos .video {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.video .informacoes h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.video .informacoes p {
+  font-size: 13px;
+  font-weight: 300;
+}
