@@ -1,0 +1,54 @@
+@media (min-width: 561px) and (max-width: 1500px) {
+  .mid-sec .pages-wrap {
+    max-width: 1080px;
+  }
+}
+
+@media (max-width: 560px) {
+  .header {
+    margin: 5px;
+  }
+
+  .header .head-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .header img {
+    width: 75px;
+    height: 96px;
+  }
+
+  .mid-sec h2 {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  .footer {
+    text-align: center;
+    max-width: 250px;
+  }
+}
+
+@media (min-width: 335px) and (max-width: 420px) {
+  .page-wrap {
+    border: 10px solid transparent;
+    border-image: url("../images/texture-border.jpg") 30;
+  }
+
+  .header {
+    margin: 0;
+    padding: 5px;
+  }
+
+  .header .head-text {
+    max-width: 170px;
+  }
+
+  .header .head-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .mid-sec h2 {
+    padding: 5px 15px;
+  }
+}
