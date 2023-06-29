@@ -241,7 +241,6 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: 1s;
 }
 
 .footer .socials a:hover {
