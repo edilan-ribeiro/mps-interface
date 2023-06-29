@@ -88,14 +88,21 @@ body {
   position: relative;
 }
 
-.mid-sec .pages-wrap .pages a {
+.mid-sec .pages-wrap .pages .multi-page, .single-page  {
   max-width: 180px;
   text-align: center;
   font-size: 1.3rem;
   line-height: 2rem;
+  transition: 0.3s;
   color: #000;
-  transition: 1s;
 }
+
+.mid-sec .single-page:hover {
+  color: #ff2121;
+}
+
+
+
 
 .mid-sec .pages-wrap label {
   justify-content: center;
@@ -104,6 +111,12 @@ body {
   line-height: 2.5rem;
   color: #000;
   text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mid-sec .pages-wrap label:hover {
+  color:#ff2121
 }
 
 /* MENU BASICO */
@@ -127,6 +140,10 @@ body {
   display: none;
 }
 
+.pages .menu-basico .multi-page:hover {
+  color: #ff2121;
+ }
+
 .pages .menu-basico a span {
   color: #ec2c2ca5;
 }
@@ -145,7 +162,7 @@ body {
   content: "X";
   position: absolute;
   top: 0;
-  left: 0;
+  left: 15px;
   background-color: red;
   color: white;
   padding: 4px;
@@ -176,6 +193,10 @@ body {
   display: none;
 }
 
+.pages .menu-flex .multi-page:hover {
+ color: #ff2121;
+}
+
 .pages .menu-flex a span {
   color: #ec2c2ca5;
 }
@@ -194,7 +215,7 @@ body {
   content: "X";
   position: absolute;
   top: 0;
-  left: 0;
+  left: 15px;
   background-color: red;
   color: white;
   padding: 4px;
