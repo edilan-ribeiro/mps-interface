@@ -119,12 +119,16 @@ body {
 .basico .menu-basico {
   display: none;
   position: absolute;
-  padding: 25px;
+  padding: 25px 15px;
   left: 55px;
 }
 
 .pages .menu-basico {
   display: none;
+}
+
+.pages .menu-basico a span {
+  color: #ec2c2ca5;
 }
 
 .pages.basico input[type="checkbox"]:checked ~ label {
@@ -151,7 +155,7 @@ body {
   display: block;
 }
 
-/* MENU FLEXBOX */
+/* MENU ADVANCED  */
 
 #flexbox {
   display: none;
@@ -164,12 +168,16 @@ body {
 .advanced .menu-flex {
   display: none;
   position: absolute;
-  padding: 25px;
+  padding: 25px 10px;
   left: 55px;
 }
 
 .pages .menu-flex {
   display: none;
+}
+
+.pages .menu-flex a span {
+  color: #ec2c2ca5;
 }
 
 .pages.advanced input[type="checkbox"]:checked ~ label {
