@@ -98,11 +98,8 @@ body {
 }
 
 .mid-sec .single-page:hover {
-  color: #ff2121;
+  color:  var(--hover-main);
 }
-
-
-
 
 .mid-sec .pages-wrap label {
   justify-content: center;
@@ -116,7 +113,7 @@ body {
 }
 
 .mid-sec .pages-wrap label:hover {
-  color:#ff2121
+  color: var(--hover-main)
 }
 
 /* MENU BASICO */
@@ -141,7 +138,7 @@ body {
 }
 
 .pages .menu-basico .multi-page:hover {
-  color: #ff2121;
+  color: var(--hover-main);
  }
 
 .pages .menu-basico a span {
@@ -194,7 +191,7 @@ body {
 }
 
 .pages .menu-flex .multi-page:hover {
- color: #ff2121;
+ color: var(--hover-main);
 }
 
 .pages .menu-flex a span {
