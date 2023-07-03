@@ -235,6 +235,12 @@ body {
   flex-wrap: wrap;
 }
 
+.footer .socials ul {
+  display: flex;
+  letter-spacing: 30px;
+}
+
+
 .footer .socials a {
   font-size: 3rem;
   background: -webkit-linear-gradient(rgb(180, 174, 182), rgb(99, 157, 209));
